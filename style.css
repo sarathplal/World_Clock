@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto:wght@700&display=swap');
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG/1280px-A_large_blank_world_map_with_oceans_marked_in_blue.PNG");
+    background-size: cover;
+
+    background-color: rgb(28, 27, 27);
+}
+
+/* navbaR */
+.navbar{
+    margin: 0;
+}
+.nav-item{
+    font-weight: bold;
+}
+
+/* DESIGN */
+h1 {
+    font-family:'Courier New', Courier, monospace ;
+    color:#000;
+    font-size: 4rem;
+    font-weight: 700;
+}
+h1 span{
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding-top: ;
+    position: relative;
+
+}
+
+.clock {
+    margin: 20px;
+    width: 155px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    color: #000;
+    font-family: 'Gruppo', cursive;
+    ;
+    font-weight: bold;
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 50px;
+    text-align: center;
+
+}
+
+.londonTime {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+.sydneyTime {
+    color: #fff;
+    text-align: center;
+    background-color: black;
+}
+
+.dubaiTime {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.clock h4 {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+/* Down the clock section */
+
+.search-time h2{
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#output_time{
+    
+    font-size: 3rem;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#add_guide{
+    margin-top: 250px;
+}
+
